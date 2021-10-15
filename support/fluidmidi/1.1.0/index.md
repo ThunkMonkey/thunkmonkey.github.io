@@ -115,7 +115,7 @@ Method|Description
 `static void PauseAll()`|Pauses all playing songs.
 `static void ResumeAll()`|Resumes all paused songs.
 `static void StopAll()`|Stops all playing songs.
-`void Play()`|Plays the song. If the `SongPlayer` is not enabled, this method will enable it and load the song. Playback always beings from the start of the song.
+`void Play()`|Plays the song. If the `SongPlayer` is not enabled, this method will enable it and load the song. Playback always begins from the start of the song.
 `void Stop()`|Stops the song. If it was paused, it can no longer be resumed.
 `void Pause()`|Pauses the song if it is playing.
 `void Resume()`|Resumes the song if it is paused.
